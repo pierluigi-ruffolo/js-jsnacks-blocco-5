@@ -3,4 +3,9 @@ const names = ["Edoardo", "Simone", "Francesco"];
 // Stampa in console tutti i nomi
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
-console.log("cioa");
+const arrey = [];
+names.forEach((name) => {
+  arrey.push(`'${name}'`);
+});
+
+console.log(arrey.join(","));
